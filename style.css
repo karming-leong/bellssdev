@@ -1,0 +1,10 @@
+.flex-container {display: flex;justify-content: center; justify-content: space-around;}
+.flex-container{ background-color: rgb(225, 155, 79);}
+
+
+/* Styles for devices with a width of 300px or less */
+@media screen and (max-width: 600px) {
+    .flex-container{
+        background-color: rgb(175, 120, 30);
+    }
+}
